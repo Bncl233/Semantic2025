@@ -1,0 +1,67 @@
+/*
+
+CSS Syntax
+
+selector  {
+    property: value;
+}
+
+Type Selectors Match HTML Elements
+
+Universal Selector *
+Full Page html
+Paragraph p
+Links a
+Headers h
+
+Attribute Selector
+Used to target specific attributes
+
+[id]  {
+    property: value;
+}
+
+Class Selectors
+Used to target specific class tags (bold, italics, green)
+
+.class  {
+    property: value;
+}
+
+ID Selector
+Used to target specific IDs
+
+#id  {
+    property: value;
+{
+
+Descendant Combinators
+Used to apply style to code and descendant code (tags that are within other tags)
+
+element1 element2  {
+    property: value;
+}
+
+element1 * element2 {
+    property: value;
+}
+
+Child Combinators
+Targets code with child relationship (<ol> and <li>)
+
+element1 > element2 {
+    property: value;
+}
+
+Sibling Combinators
+Targets tags that are on the same level (<header> and <article>)
+
+element1 + element2 {
+    property: value;
+}
+
+element1 ~ element2(seperated) {
+    property: value;
+}
+*/
+
