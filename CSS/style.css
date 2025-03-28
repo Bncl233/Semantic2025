@@ -64,3 +64,13 @@ element1 ~ element2(seperated) {
     property: value;
 }
 */
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
