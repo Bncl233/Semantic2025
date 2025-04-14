@@ -1,119 +1,58 @@
-/*
-
-CSS Syntax
-
-selector  {
-    property: value;
-}
-
-Type Selectors Match HTML Elements
-
-Universal Selector *
-Full Page html
-Paragraph p
-Links a
-Headers h
-
-Attribute Selector
-Used to target specific attributes
-
-[id]  {
-    property: value;
-}
-
-Class Selectors
-Used to target specific class tags (bold, italics, green)
-
-.class  {
-    property: value;
-}
-
-ID Selector
-Used to target specific IDs
-
-#id  {
-    property: value;
-{
-
-Descendant Combinators
-Used to apply style to code and descendant code (tags that are within other tags)
-
-element1 element2  {
-    property: value;
-}
-
-element1 * element2 {
-    property: value;
-}
-
-Child Combinators
-Targets code with child relationship (<ol> and <li>)
-
-element1 > element2 {
-    property: value;
-}
-
-Sibling Combinators
-Targets tags that are on the same level (<header> and <article>)
-
-element1 + element2 {
-    property: value;
-}
-
-element1 ~ element2(seperated) {
-    property: value;
-}
-*/
-
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
+
 }
 
 * {
-    background-color: none;
+    background-color: #003249;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* Top Navigation Bar */
 
 .topnav {
     display: flex;
-    background-color: white;
+    background-color: #003249;
     align-items: left;
-    justify-content: left;
-    border: none;
-    position: sticky; top: 0
+    justify-content: space-around;
+    border-bottom: white solid 2px;
 }
 
 .topnav a {
-    color: black;
+    color: white;
     padding: 14px;
-    font-size: 1.25rem;
-    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     letter-spacing: .5px;
-    text-decoration: none;
-}
-
-.push {
-    margin-left: auto;
+    text-decoration: underline;
 }
 
 .topnav a.active {
-    color: purple;
+    color: white;
 }
 
-.button {
-    background-color: white;
+.topnav a:hover {
     color: black;
+}
+
+/* PDF and Image */
+
+.button {
+    border: solid 3px white;
+    color: #003249;
+    background-color: white;
+    border-radius: 30px;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
-    border-radius: 40px;
-    transition-duration: 0.4s;
-    border-color: black;
-    border: 2px solid;
-    height: 0%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px;
 }
 
 .button:hover {
@@ -121,91 +60,132 @@ html {
     color: white;
 }
 
-.navtext {
-    text-decoration: none;
-}
-
-#name {
-    font-size: 1.75rem;
-    text-decoration: none;
-}
-
-/* Side Navigation Bar*/
-/*
-.sidenav {
-    height: 100%;
-    width: 150px;
-    position: fixed;
-    z-index: 1;
-    top: 48px;
-    left: 0;
-    background-color: #555;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    display: block;
-    letter-spacing: .5px;
-}
-
-.sidenav a:hover {
-    color: white;
-    background-color: purple;
-}
-
-.main {
-    margin-left: 160px;
-    padding: 0px 10px;
-}
-*/
-/* PDF and Image */
-
-iframe {
-    display: block;
-    margin: auto;
-    margin: 1rem;
-}
-
 img {
     display: block;
     margin: auto;
-    margin: 1rem;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-   }
-
-/* Font */
+/* Font and Sizing */
 
 html {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.75;
  }
 
+.main {
+    margin: 1rem 3rem;
+    padding: 1rem;
+ }
+
+.home {
+    margin: 1rem 3rem;
+    font-size: 12rem;
+    text-align: left;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.hometext {
+    margin: 1rem 3rem;
+    font-size: 8rem;
+    color: white;
+    font-family: "Cormorant Infant", sans-serif;
+    font-weight: 600;
+    background-color: #003249;
+}
+
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: white;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: white;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
+p {
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 1rem 0;
 }
 
 ul {
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
     line-height: 2;
+    list-style: inside;
+    color: white;
+    padding: 1rem 0;
 }
+
+/* Footer */
+
+footer {
+    border-top: solid white 2px;
+}
+
+.imagecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagetext {
+    margin-left: 5px;
+    margin-top: 0;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    background-color: #003249;
+}
+
+a {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Sections */
+
+.works {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: .2rem;
+}
+
+.section {
+    border: solid white 2px;
+    padding: 20px;
+    width: 32%;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+section{
+    padding: 2rem 0px;
+}
+
