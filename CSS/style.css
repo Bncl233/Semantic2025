@@ -16,7 +16,6 @@ html {
 .topnav {
     display: flex;
     background-color: #003249;
-    align-items: left;
     justify-content: space-around;
     border-bottom: white solid 2px;
 }
