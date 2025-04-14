@@ -42,7 +42,7 @@ html {
 /* PDF and Image */
 
 .button {
-    border: solid 3px white;
+    border: solid 3px #003249;
     color: #003249;
     background-color: white;
     border-radius: 30px;
@@ -164,6 +164,10 @@ a {
 
 a:hover {
     color: black;
+}
+
+.cards {
+    font-size: 2rem;
 }
 
 /* Sections */
