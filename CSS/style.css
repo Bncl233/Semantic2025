@@ -7,28 +7,27 @@
 
 /* Top Navigation Bar */
 
-.topnav {
+nav {
     display: flex;
     background-color: #003249;
     justify-content: space-around;
     border-bottom: white solid .2rem;
 }
 
-.topnav a {
+nav a {
     color: white;
-    padding: 14px;
-    font-size: 1.2rem;
+    padding: 10px;
+    font-size: 1rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    letter-spacing: .5px;
     text-decoration: underline;
 }
 
-.topnav a.active {
+nav a.active {
     color: white;
 }
 
-.topnav a:hover {
+nav a:hover {
     color: black;
 }
 
@@ -43,7 +42,7 @@
     text-decoration: none;
     display: inline-block;
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     padding: .5rem;
 }
@@ -53,11 +52,6 @@
     color: white;
 }
 
-img {
-    display: block;
-    margin: auto;
-}
-
 /* Font and Sizing */
 
 html {
@@ -65,14 +59,14 @@ html {
     line-height: 1.75;
  }
 
-.main {
-    margin: 1rem 3rem;
+main {
+    margin: 1rem 1rem;
     padding: 1rem;
  }
 
 .home {
-    margin: 1rem 3rem;
-    font-size: 12rem;
+    margin: 1rem 1rem;
+    font-size: 2.5rem;
     text-align: left;
     color: white;
     font-family: "Open Sans", sans-serif;
@@ -80,8 +74,8 @@ html {
 }
 
 .hometext {
-    margin: 1rem 3rem;
-    font-size: 8rem;
+    margin: 1rem 1rem;
+    font-size: 2rem;
     color: white;
     font-family: "Cormorant Infant", sans-serif;
     font-weight: 600;
@@ -89,7 +83,7 @@ html {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     text-align: center;
@@ -97,21 +91,21 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     color: white;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     color: white;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: white;
@@ -160,7 +154,8 @@ a:hover {
 }
 
 .cards {
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 /* Sections */
@@ -170,7 +165,7 @@ a:hover {
     flex-flow: row wrap;
     gap: 30px;
     justify-content: center;
-    padding: .2rem;
+    padding: .1rem;
 }
 
 .section {
