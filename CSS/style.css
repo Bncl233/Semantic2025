@@ -165,19 +165,21 @@ a:hover {
     flex-flow: row wrap;
     gap: 30px;
     justify-content: center;
-    padding: .1rem;
+    padding: 0rem;
+    margin: .2rem;
 }
 
 .section {
     border: solid white .2rem;
-    padding: 1.25rem;
-    width: 32%;
+    padding: 1rem;
+    min-width: 34%;
+    max-width: 50%;
     text-align: center;
     color: white;
     border-radius: 30px;
 }
 
-section{
+section {
     padding: 2rem 0px;
 }
 
