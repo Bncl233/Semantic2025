@@ -60,7 +60,7 @@ html {
  }
 
 main {
-    margin: 1rem 1rem;
+    margin: .5rem .5rem;
     padding: 1rem;
  }
 
@@ -166,14 +166,14 @@ a:hover {
     gap: 30px;
     justify-content: center;
     padding: 0rem;
-    margin: .2rem;
+    margin: .1rem;
 }
 
 .section {
     border: solid white .2rem;
     padding: 1rem;
     min-width: 34%;
-    max-width: 50%;
+    max-width: 95%;
     text-align: center;
     color: white;
     border-radius: 30px;
