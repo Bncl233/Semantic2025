@@ -172,8 +172,8 @@ a:hover {
 .section {
     border: solid white .2rem;
     padding: 1rem;
-    min-width: 34%;
-    max-width: 48%;
+    min-width: 200px;
+    max-width: 1000px;
     text-align: center;
     color: white;
     border-radius: 30px;
